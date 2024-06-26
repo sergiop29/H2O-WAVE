@@ -122,6 +122,6 @@ def plot_view(q):
     )
 
 def aggregated_data():
-    df = pd.read_excel("C:\Users\User\Desktop\UnB e Projetos\Workshop de Power BI\Base de Dados Workshop.xlsx")
+    df = pd.read_excel('Base de Dados Workshop.xlsx')
     print(df.head())
     return df
